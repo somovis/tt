@@ -1,0 +1,22 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-19 12:58:11
+download status
+download accept terms of use
+project --topLevelPackage com.tradetrain
+jpa setup --provider HIBERNATE --database POSTGRES 
+entity jpa --class ~.Candle --testAutomatically 
+field number --type float --fieldName openPrice 
+field number --type float --fieldName closePrice 
+field number --type float --fieldName minPrice 
+field number --type float --fieldName maxPrice 
+field date --fieldName beginDate --type java.util.Date 
+field date --fieldName endDate --type java.util.Date 
+field number --fieldName volume --type int
+// [failed] perform tests
+web mvc setup
+web mvc all --package com.tradetrain
+web mvc all --package com.tradetrain.web
+json all
+web mvc json all
+exit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-19 13:12:30
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-19 15:22:06
