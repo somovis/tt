@@ -5,13 +5,10 @@
 
 <tiles-definitions>
 
-  <definition name="body" extends="default">
-    <put-attribute name="body" value="/WEB-INF/views/body.jsp" />
-  </definition>
-
     <definition name="index" extends="default">
         <put-attribute name="body" value="/WEB-INF/views/body.jsp" />
     </definition>
 
+    <definition name="chart" extends="default" template="/WEB-INF/views/chart.jsp"/>
 
 </tiles-definitions>

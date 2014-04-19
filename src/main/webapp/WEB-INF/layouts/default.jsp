@@ -12,6 +12,7 @@
 		    <div id="main">
 	    		Hello, world! default
                 <tiles:insertAttribute name="body"/>
+                <tiles:insertAttribute name="chart"/>
 		    </div>
 		</div>
 	</body>
